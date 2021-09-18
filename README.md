@@ -7,7 +7,7 @@ Indicatie: 1=I; 5=V; 10=X; 50=L; 100=C; 500=D; 1000=M;
 
 Solutie: 
 Se citeste numarul n si cat timp acesta este mai mare ca o valoare esalon (ex: 1000,100,50,10, etc.)
-vom afisa litera corespunzatoare acelei valori si pe urma scadem acea valoare
+vom afisa litera corespunzatoare acelei valori si pe urma scadem acea valoare.
 
 Exemplu:
 ```
