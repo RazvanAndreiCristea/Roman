@@ -9,14 +9,16 @@ Solutie:
 Se citeste numarul n si cat timp acesta este mai mare ca o valoare esalon (ex: 1000,100,50,10, etc.)
 vom afisa litera corespunzatoare acelei valori si pe urma scadem acea valoare
 
-Exemplu:                       Ecran:
-input: 1024 ->                 output: nimic,
-1024>1000 ->                   output: M,
-1024-1000=24 ->                output: M,
-24>10 ->                       output: MX,
-24-10=14 ->                    output: MX,
-14>10 ->                       output: MXX,
-14-10=4 ->                     output: MXX,
-4 ->                           output: MXXIV -numarul cautat.
+Exemplu: 
+Input -> Output:
+                     
+>1024 -> nimic,
+>1024>1000 -> M,
+>1024-1000=24 -> M,
+>24>10 -> MX,
+>24-10=14 -> MX,
+>14>10 -> MXX,
+>14-10=4 -> MXX,
+>4 -> MXXIV -numarul cautat.
 
 Sper sa va fie de folos si spor la treaba!
