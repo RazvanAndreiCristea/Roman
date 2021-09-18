@@ -2,8 +2,6 @@
 #include <iostream>
 #include <string>
 #include <Windows.h>
-#define Maxim 4000
-#define Minim 0
 
 /*Functie ce prelucreaza un string format doar din cifre pe care apoi
 il converteste intr-un intreg/numar natural ce urmeaza sa fie prelucrat

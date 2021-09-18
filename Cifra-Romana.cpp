@@ -1,4 +1,6 @@
 #include "Cifra-Romana.h"
+#define Maxim 4000
+#define Minim 0
 
 int citeste_numarul()
 {
