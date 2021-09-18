@@ -24,7 +24,7 @@ int citeste_numarul()
 }
 
 
-void cifre_romane(int n)
+void cifre_romane(int &n)
 {
 	if (n > Minim && n < Maxim)
 	{
