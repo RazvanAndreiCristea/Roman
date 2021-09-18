@@ -1,4 +1,4 @@
-# Roman
+# Numar scris cu ajutorul cifrelor romane
 CERINTA:
 Se citeste de la tastatura un numar natural n<4000. Scrieti un program care afiseaza
 numarul n in scriere cu cifre romane.
