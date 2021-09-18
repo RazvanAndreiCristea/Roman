@@ -12,7 +12,7 @@ int citeste_numarul()
 		if (!std::isdigit(numar[j]))
 		{
 			std::cout << "Nu ai introdus un numar! \n";
-			std::cout << "Introduceti doar cifre! \n";
+			std::cout << "Introdu doar cifre! \n";
 			std::cout << "Asteapta pana cand se actualizeaza ecranul! \n";
 			std::cout << "Nu apasa nicio tasta in tot acest timp! \n";
 			Sleep(3000);
@@ -139,12 +139,12 @@ bool programul_ruleaza()
 {
 	char optiune;
 
-	std::cout << "Pentru a scrie alt numar cu cifre romane apasati tasta 1. \n";
-	std::cout << "Pentru a parasi aplicatia apasati tasta 2. \n";
+	std::cout << "Pentru a scrie alt numar cu cifre romane apasa tasta 1. \n";
+	std::cout << "Pentru a parasi aplicatia apasa tasta 2. \n";
 
 	std::cout << "=========================================================== \n";
 
-	std::cout << "Alegeti una dintre aceste optiuni: ";
+	std::cout << "Alege una dintre aceste optiuni: ";
 	std::cin >> optiune;
 
 	switch (optiune)
@@ -163,7 +163,7 @@ bool programul_ruleaza()
 
 	default:
 		system("CLS");
-		std::cout << "Optiunea selectata de dumneavoastra nu exista! \n";
+		std::cout << "Optiunea selectata de tine nu exista! \n";
 		Sleep(1000);
 		std::cout << "Optiunile posibile sunt: \n";
 		return programul_ruleaza();
