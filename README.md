@@ -9,16 +9,17 @@ Solutie:
 Se citeste numarul n si cat timp acesta este mai mare ca o valoare esalon (ex: 1000,100,50,10, etc.)
 vom afisa litera corespunzatoare acelei valori si pe urma scadem acea valoare
 
-Exemplu: 
+Exemplu:
+```
 Input -> Output:
-                     
->1024 -> nimic,
->1024>1000 -> M,
->1024-1000=24 -> M,
->24>10 -> MX,
->24-10=14 -> MX,
->14>10 -> MXX,
->14-10=4 -> MXX,
->4 -> MXXIV -numarul cautat.
-
+                    
+1) 1024 -> nimic,
+2) 1024>1000 -> M,
+3) 1024-1000=24 -> M,
+4) 24>10 -> MX,
+5) 24-10=14 -> MX,
+6) 14>10 -> MXX,
+7) 14-10=4 -> MXX,
+8) 4 -> MXXIV -numarul cautat.
+```
 Sper sa va fie de folos si spor la treaba!
