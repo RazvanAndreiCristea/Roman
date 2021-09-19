@@ -13,7 +13,7 @@ int citeste_numarul();
 
 
 /*Functie ce primeste ca parametru numarul natural
-returnat de functia citeste _numarul(), verifica daca este
+returnat de functia citeste_numarul(), verifica daca este
 cuprins intre 0 si 4000, iar in caz afirmativ va scrie numarul
 cu cifre romane conform regulilor de scriere specifice.*/
 void cifre_romane(int &n);
