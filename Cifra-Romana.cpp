@@ -26,7 +26,7 @@ int citeste_numarul()
 }
 
 
-void cifre_romane(int &n)
+void cifre_romane(int& n)
 {
 	if (n > Minim && n < Maxim)
 	{
@@ -139,7 +139,7 @@ void cifre_romane(int &n)
 
 bool programul_ruleaza()
 {
-	char optiune;
+	std::string validare_optiune;
 
 	std::cout << "Pentru a scrie alt numar cu cifre romane apasa tasta 1. \n";
 	std::cout << "Pentru a parasi aplicatia apasa tasta 2. \n";
@@ -147,7 +147,19 @@ bool programul_ruleaza()
 	std::cout << "=========================================================== \n";
 
 	std::cout << "Alege una dintre aceste optiuni: ";
-	std::cin >> optiune;
+	std::cin >> validare_optiune;
+
+	if (validare_optiune.size() > 1)
+	{
+		system("CLS");
+		std::cout << "Optiunea selectata de tine nu exista! \n";
+		std::cout << "=========================================================== \n";
+		Sleep(500);
+		std::cout << "Optiunile posibile sunt: \n";
+		return programul_ruleaza();
+	}
+
+	char optiune = validare_optiune[0];
 
 	switch (optiune)
 	{
@@ -166,9 +178,9 @@ bool programul_ruleaza()
 	default:
 		system("CLS");
 		std::cout << "Optiunea selectata de tine nu exista! \n";
-		Sleep(1000);
+		std::cout << "=========================================================== \n";
+		Sleep(500);
 		std::cout << "Optiunile posibile sunt: \n";
 		return programul_ruleaza();
 	}
-
 }
