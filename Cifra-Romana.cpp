@@ -9,7 +9,7 @@ int citeste_numarul()
 	std::cout << "Introdu numarul pe care doresti sa-l scrii cu cifre romane: ";
 	std::cin >> numar;
 
-	for (unsigned int j = 0; j < numar.size(); j++)
+	for (int j = 0; j < numar.size(); j++)
 
 		if (!std::isdigit(numar[j]))
 		{
