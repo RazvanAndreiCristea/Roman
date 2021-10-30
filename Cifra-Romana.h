@@ -16,7 +16,7 @@ int citeste_numarul();
 returnat de functia citeste_numarul(), verifica daca este
 cuprins intre 0 si 4000, iar in caz afirmativ va scrie numarul
 cu cifre romane conform regulilor de scriere specifice.*/
-void cifre_romane(int &n);
+void cifre_romane(int& n);
 
 
 /*Functie care da posibilitatea utilizatorului sa introduca si

@@ -9,7 +9,7 @@ int citeste_numarul()
 	std::cout << "Introdu numarul pe care doresti sa-l scrii cu cifre romane: ";
 	std::cin >> numar;
 
-	for (int j = 0; j < numar.size(); j++)
+	for (auto j = 0; j < numar.size(); j++)
 
 		if (!std::isdigit(numar[j]))
 		{
@@ -149,7 +149,7 @@ bool programul_ruleaza()
 	std::cout << "Alege una dintre aceste optiuni: ";
 	std::cin >> validare_optiune;
 
-	if (validare_optiune.size() > 1)
+	if (validare_optiune.length() > 1)
 	{
 		system("CLS");
 		std::cout << "Optiunea selectata de tine nu exista! \n";
